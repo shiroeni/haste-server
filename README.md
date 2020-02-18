@@ -159,7 +159,7 @@ All of which are optional except `type` with very logical default values.
 ```json
 {
   "type": "sqlite",
-  "connectionUrl": "sqlite://data/database"
+  "databasePath": "./data/database"
 }
 ```
 
