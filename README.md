@@ -154,6 +154,17 @@ or post.
 
 All of which are optional except `type` with very logical default values.
 
+### SQLite
+
+```json
+{
+  "type": "sqlite",
+  "connectionUrl": "sqlite://data/database"
+}
+```
+
+Migration same as for Postgres
+
 ### Memcached
 
 To use memcache storage you must install the `memcached` package via npm

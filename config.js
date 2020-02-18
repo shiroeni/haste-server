@@ -33,14 +33,11 @@
   },
 
   "storage": {
-    "type": "memcached",
-    "host": "127.0.0.1",
-    "port": 11211,
-    "expire": 2592000
+    "type": "sqlite",
+    "databasePath": "./database"
   },
 
   "documents": {
     "about": "./about.md"
   }
-
 }
